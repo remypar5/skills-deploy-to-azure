@@ -24,6 +24,9 @@ jobs:
           npm install
           npm run build
       - uses: actions/upload-artifact@v4
+        with:
+          name: webpack artifacts
+          path: public/
 
   Build-Docker-Image:
     runs-on: ubuntu-latest
