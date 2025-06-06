@@ -9,7 +9,7 @@ env:
   IMAGE_REGISTRY_URL: ghcr.io
   DOCKER_IMAGE_NAME: remypar5-azure-ttt
   AZURE_WEBAPP_NAME: remypar5-ttt-app
-
+ 
 jobs:
   build:
     runs-on: ubuntu-latest
